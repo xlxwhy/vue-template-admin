@@ -229,9 +229,9 @@ https://panjiachen.gitee.io/vue-element-admin/#/dashboard
 
 ## 创建模板工程
 
-定制化common-layer
-定制化服务端
-使用mock
+可定制common-layer
+
+
 
 
 

@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-container">
     <div v-for="(item,i) in table.data" v-bind:key="i">
-      {{item.memberId}}-{{item.memberName}}
+      \{{item.memberId}} - \{{item.memberName}}
     </div>
 
   </div>

@@ -1,10 +1,10 @@
 import fetch from '../../utils/http/fetch.js'
 import consts from '../../utils/http/consts.js'
 
-const ROOT = '/platform/member';
+const ROOT = '/member';
 
 export default {
-  page(data, suc, err) {
-    return fetch(data, suc, err, consts.HttpMethod.POST, `${ROOT}/page`);
+  list(data, suc, err) {
+    return fetch(data, suc, err, consts.HttpMethod.POST, `${ROOT}/list`);
   },
 }

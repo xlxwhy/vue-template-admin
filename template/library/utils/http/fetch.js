@@ -18,9 +18,9 @@ export default (data, success, error, method, url) => {
         } else {
             console.log(`WARNING: no auth error callback function! pls rewrite /http/global.api.authCallback `);
         }
-        if (res.data && res.data.code == consts.SUCCESS) {
+        if (res.data && res.data.code == consts.CODE.SUCCESS) {
             success && success(res.data);
-        } else if (res.data.code == consts.AUTH_ERROR) {
+        } else if (res.data.code == consts.CODE.AUTH_ERROR) {
             if (global.api && global.api.authCallback) {
                 global.api.authCallback(res.data)
             } else {

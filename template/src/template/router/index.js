@@ -4,7 +4,7 @@ import Router from 'vue-router'
 Vue.use(Router)
  
 const _import = require('./_import')
-import Layout from '@/example/views/layout/Layout'
+import Layout from '../views/layout/Layout'
 import NestedRouter from './modules/nested.js'
 import TestRouter from './modules/test.js'
 

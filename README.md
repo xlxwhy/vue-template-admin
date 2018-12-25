@@ -17,7 +17,7 @@ npm install -g vue-cli
 
 执行以下命令，并按提示输入相关信息
 ```
-vue init xlxwhy/vue-template-mobile myproject
+vue init xlxwhy/vue-template-admin myproject
 注：vue-cli不支持私服，只支持Github等线上平台
 ```
 ## 运行
@@ -40,7 +40,7 @@ npm run dev
 
 ### 是否使用common-layer
 
-common-layer是团体自身的依赖库，不存在于npm远程依赖库中。
+common-layer是团体自身的依赖库，。
 - 如果使用common-layer，需要使用【xsh npm i】来安装
 - 如果不使用common-layer，可以常规地使用【npm i】
 

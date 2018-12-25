@@ -1,0 +1,4 @@
+# Deploy
+/node_modules/**
+public/admin
+.vscode/

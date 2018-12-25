@@ -7,7 +7,11 @@
   </div>
 </template>
 <script>
-import MemberApi from "@/../library/apis/infra-member/MemberApi.js";
+{{#useCommonLayer }}
+import MemberApi from "common-layer/apis/infra-member/MemberApi.js";
+{{else}}
+import MemberApi from "@/../library/apis/infra-member/MemberApi.js"; 
+{{/useCommonLayer }}
 
 export default {
   data() {
@@ -22,7 +26,7 @@ export default {
   },
   methods: {
     loadMemers() {
-      MemberApi.page({}, res => {
+      MemberApi.list({}, res => {
         this.table.data = res.data.list;
       });
     }

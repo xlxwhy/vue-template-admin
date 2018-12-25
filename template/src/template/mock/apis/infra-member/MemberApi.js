@@ -2,7 +2,7 @@
 
 export default {
 
-  page(data, suc, err) {
+  list(data, suc, err) {
     return {
       data: {
         list: [

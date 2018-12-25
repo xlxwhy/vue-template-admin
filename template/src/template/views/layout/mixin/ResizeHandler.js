@@ -1,4 +1,4 @@
-import store from '@/example/store'
+import store from '../../../store'
 
 const { body } = document
 const WIDTH = 1024

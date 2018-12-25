@@ -44,7 +44,7 @@ module.exports = {
       type: 'string',
       required: false,
       message: 'Project description',
-      default: 'admin template project',
+      default: 'A vue-template-admin project.',
     },
     author: {
       when: 'isNotTest',

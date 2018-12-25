@@ -208,7 +208,17 @@ main文件一般需要初始化很多的功能模块，建议拆分
 - ./components/init.js
 
 
+## 大小写的问题
 
+警告信息：There are multiple modules with names that only differ in casing.<br>
+有两个原因：<br>
+- 使用cd命令时，路径的大小写弄错了，虽然可以进行指定的文件夹，但会出现警告
+- 如果路径大小写正确但还会警告，则删除node_modules重新安装即可
+
+``` js
+cd  "/e/XDEV/temp/vta3"
+cd  "/e/xdev/temp/vta3"
+```
 
 ## 更多的官方例子
 

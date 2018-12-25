@@ -2,9 +2,9 @@ const _import = require('../_import')
  
 
 export default {
-  path: '/test',
+  path: '/demo',
   component: _import('/layout/Layout.vue'),
-  redirect: '/test/api',
+  redirect: '/demo/api',
   name: 'Test',
   meta: {
     title: 'Test',
@@ -14,13 +14,13 @@ export default {
 
     {
       path: 'index',
-      component: _import('/test/test-index.vue'),
+      component: _import('/demo/demo-index.vue'),
       name: 'TestIndex',
       meta: { title: 'TestIndex' }
     },
     {
       path: 'api',
-      component: _import('/test/test-api.vue'),
+      component: _import('/demo/demo-api.vue'),
       name: 'TestApi',
       meta: { title: 'TestApi' }
     },

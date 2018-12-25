@@ -6,7 +6,7 @@ Vue.use(Router)
 const _import = require('./_import')
 import Layout from '../views/layout/Layout'
 import NestedRouter from './modules/nested.js'
-import TestRouter from './modules/test.js'
+import DemoRouter from './modules/demo.js'
 
 /** note: Submenu only appear when children.length>=1
  *  detail see  https://panjiachen.github.io/vue-element-admin-site/guide/essentials/router-and-nav.html
@@ -88,7 +88,7 @@ export const constantRouterMap = [
     ]
   },
   NestedRouter,
-  TestRouter,
+  DemoRouter,
 
   {
     path: '/404',

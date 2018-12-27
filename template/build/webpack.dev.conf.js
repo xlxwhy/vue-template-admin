@@ -93,7 +93,7 @@ for (var moduleName in config.dev.entries) {
         from: path.resolve(__dirname, '../static'),
         to: moduleName + "/" + config.dev.assetsSubDirectory,
         ignore: ['.*']
-      },
+      }
     )
   }
   if (fs.existsSync(path.resolve(__dirname, `../src/${moduleName}/static`))) {
